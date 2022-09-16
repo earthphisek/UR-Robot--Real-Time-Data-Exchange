@@ -1,0 +1,19 @@
+[CONNECTION]
+Broker = BROKER_URL
+Port = 1883
+Keepalive = 0
+Qos = 2
+Username = USERNAME
+Password = PASSWORD
+
+[SUBTOPICS]
+AngularDistance = ANGULARDISTANCE_TOPIC
+StopExplore = STOPEXPLORE_TOPIC
+EntranceExit = ENTRANCEEXIT_TOPIC
+Command = COMMAND_TOPIC
+
+[PUBTOPICS]
+AngularDistance = ANGULARDISTANCE_TOPIC
+StopExplore = STOPEXPLORE_TOPIC
+EntranceExit = ENTRANCEEXIT_TOPIC
+Command = COMMAND_TOPIC
